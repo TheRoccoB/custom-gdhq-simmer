@@ -38,7 +38,7 @@
         hero_logo_url: '/images/gamedevhq.png',
         hero_logo_HTML: '<img style="width:125px;height:125px;" src="{{baseUrl}}/{{hero_logo_url}}">',
         hero_title_HTML: `Projects`,
-        hero_description_HTML: `turning your passion for Unity and game development into a career`,
+        hero_description_HTML: `<span style="background-color:black;padding:5px;25px;">turning your passion for Unity and game development into a career</span>`,
 
         // sidebar
         sidebar_description_HTML: `
@@ -155,13 +155,13 @@ Cheers,
 The GameDev.tv Team & SIMMER.io`
         },
 
-        appfooter_copyright_HTML:'&copy; 2019 EmbraceIT Ltd.',
+        appfooter_copyright_HTML:'&copy; 2019 Game Dev HQ',
 
         // upload page
         upload_dropzone_background: 'radial-gradient(circle, rgba(17,17,17,1) 0%, #0D700C 100%, #0D700C 100%)',
 
         // version: shown in footer, useful for debugging version of this script.
-        version_string: 'smg1.0',
+        version_string: 'gdhq1.0',
 
         // omit if you don't want to show silly cookie notice
         cookie_notice_html: '<div>This site uses cookies to run optimally. By continuing to use this site, you consent to the our use of cookies.</div><div style="font-weight:bold">Details: <a href="/privacy" target="_blank">Privacy</a> | <a href="/gdpr" target="_blank">GDPR</a> | <a href="/tos" target="_blank">Terms</a>.</div>'
